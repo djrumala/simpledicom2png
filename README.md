@@ -1,16 +1,17 @@
-# simpledicom2png
-This is a simple python program to convert DICOM images to png format
+# simpledicom2png (DICOM TO PNG CONVERTER)
+This is a simple python program to convert DICOM to PNG format.
 
-1. Tekan Win + R
-2. Ketik Cmd, tekan Enter. Command Prompt (Cmd) akan dibuka
-3. Extract script.zip ke folder 'script' di folder 'Downloads'. Lalu buka folder 'script' tersebut.
-4. Pada Cmd, ketik:
+This code can be used to convert one or 
+
+1. Add and extract the script to your path
+2. Open terminal to run the script
+3. Open the your folder in terminal:
 cd <path folder script>
-contoh: cd C:\Users\Brain\Downloads\\script
-5. [path folder script] didapatkan dengan mengcopy paste path script ke Cmd
-6. Ketik ".\env\Scripts\Activate.bat" (tidak perlu tanda kutip)
-7. Copy path folder data dicom
-8. Pada Cmd, ketik
-python convert.py '"<path folder>"' <tipe_gambar=[hitam/putih]>
-Contoh -> python convert.py '"D:\Projects\Companies\Convert\data"' hitam (Perhatikan path folder diawali dan diakhiri oleh kutip satu + kutip dua)
-9. Gambar akan muncul pada folder 'png' di dalam folder 'script'
+For example: cd C:\Users\Brain\Downloads\\script
+Copy paste your path to terminal for faster use
+4. Type ".\env\Scripts\Activate.bat"
+5. Copy the folder path of the DICOM to terminal
+8. In terminal, type:
+python convert.py '"<path folder>"' <image_color_type=[black/white]>
+For example: python convert.py '"D:\Projects\Companies\Convert\data"' black (Notice that to write the folder path you should include ' and " at the start and the end of the path name)
+9. Images are stored in 'PNG' inside our 'script' folder
