@@ -14,4 +14,6 @@ Copy paste your path to terminal for faster use
 8. In terminal, type:
 python convert.py '"<path folder>"' <image_color_type=[black/white]>
 For example: python convert.py '"D:\Projects\Companies\Convert\data"' black (Notice that to write the folder path you should include ' and " at the start and the end of the path name)
-9. Images are stored in 'PNG' inside our 'script' folder
+9. Images are stored in 'PNG' inside your 'script' folder
+
+After following the instruction, your PNG files are ready to use.
